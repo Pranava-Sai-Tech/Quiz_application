@@ -1,0 +1,27 @@
+.quiz-container {
+  text-align: center;
+  margin: 2000px;
+}
+
+.topic-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  
+}
+
+.topic-button {
+  margin: 100px;  /* Adds spacing between topic buttons */
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.topic-button:hover {
+  background-color: #0056b3;
+}
